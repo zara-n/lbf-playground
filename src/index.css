@@ -1,0 +1,88 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+
+
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  height: 100%;
+
+  font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  width: 100vw;
+}
+
+header,
+body {
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  background-color: #267d59;
+}
+
+input {
+  display: none;
+}
+label {
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  background: white;
+  color: #2d4550;
+  width: 100%;
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+input:checked + label {
+  background: #cae9dc;
+}
+
+.swiper-vertical {
+  height: calc(100vh - 57px);
+}
+
+.scroll-snap-container {
+  max-height: calc(100vh - 57px);
+  scroll-snap-points-y: repeat(calc(100vh - 57px));
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.scroll-snap {
+  height: calc(100vh - 57px);
+  scroll-snap-align: start;
+}
+
+.scroll-snap-x {
+  scroll-snap-align: start;
+  min-width: 100vw;
+  height: 100vh;
+}
+
+.snap-container {
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+}

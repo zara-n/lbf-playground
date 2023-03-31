@@ -1,0 +1,52 @@
+{
+  "formsSteps": [
+    {
+      "id": "step-1",
+      "question": "Hvordan er gående adskilt fra kørende og cyklende frem til boligen?",
+      "options": [
+        "Følbar og visuel adskillelse",
+        "Følbar adskillelse",
+        "Gang- og cykelstier adskilt fra biler",
+        "Gangareealer kun delvist markerede",
+        "Ingen adskillelse"
+      ],
+      "type": "radio"
+    },
+    {
+      "id": "step-2",
+      "question": "Er ejendommens døre markerede med farve, belysning og skilt?",
+      "options": [
+        "Ja + kendetegn som planter og kunst",
+        "Ja, døre skiller sig ud",
+        "Kun farvemæssig adskillelse",
+        "Kun skilt og/eller belysning",
+        "Ingen markering"
+      ],
+      "type": "radio"
+    },
+    {
+      "id": "step-3",
+      "question": "Hvordan kommer man ind i boligen?",
+      "options": [
+        "Uden trin eller trapper",
+        "Via rampe",
+        "1 eller 2 trin",
+        "3 eller flere trin (trapper)",
+        "Med elevator",
+        "Med løfteplatform",
+        "Med trappelift"
+      ],
+      "type": "checkbox"
+    },
+    {
+      "id": "step-4",
+      "question": "Er boligen i flere planer eller niveauer?",
+      "options": [
+        "1 plan uden niveauspring",
+        "1-2 trin inde i boligen (ikke dørtrin)",
+        "Bolig i flere planer/etager"
+      ],
+      "type": "radio"
+    }
+  ]
+}
